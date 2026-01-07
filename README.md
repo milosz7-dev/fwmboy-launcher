@@ -1,5 +1,4 @@
-⛏️ FWMB Launcher Pro
-FWMB Launcher Pro to darmowy, lekki i nowoczesny launcher do Minecrafta, stworzony specjalnie dla naszej ekipy. Oferuje profesjonalny interfejs z zaawansowaną konsolą logów i automatyzacją.
+⛏️ FWMB Launcher Pro to darmowy, lekki i nowoczesny launcher do Minecrafta, stworzony specjalnie dla naszej ekipy. Oferuje profesjonalny interfejs z zaawansowaną konsolą logów i automatyzacją.
 
 🌟 Główne Funkcje
 Inteligentna Auto-Java (Runtime): Launcher skanuje Twój komputer. Jeśli nie znajdzie poprawnej Javy (17+), sam pobierze Java Runtime Gamma od Microsoftu do folderu gry. Ty nic nie musisz instalować.
