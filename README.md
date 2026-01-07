@@ -1,37 +1,47 @@
-# ⛏ Fwmboy Launcher
+Oto zaktualizowana wersja Twojego opisu (README), uwzględniająca wszystkie nowe funkcje, które dodaliśmy: System Detekcji Javy, Muzykę C418, Sekcję Autorów oraz wsparcie techniczne Gemini AI i testy Kajtka.
 
-![License](https://img.shields.io/badge/license-MIT-green)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-orange)
+⛏️ FWMB Launcher Pro
+FWMB Launcher Pro to darmowy, lekki i nowoczesny launcher do Minecrafta, stworzony specjalnie dla naszej ekipy. Oferuje profesjonalny interfejs z zaawansowaną konsolą logów i automatyzacją, której nie znajdziesz w zwykłych launcherach.
 
-**Fwmboy Launcher** to darmowy, lekki i nowoczesny launcher do Minecrafta, stworzony specjalnie dla naszej ekipy. Oferuje prosty interfejs wzorowany na klasycznych rozwiązaniach, ale z autorskimi dodatkami.
+🌟 Główne Funkcje
+Inteligentna Auto-Java (Runtime): Launcher skanuje Twój komputer. Jeśli nie znajdziesz poprawnej Javy (17+), sam pobierze Java Runtime Gamma od Microsoftu do folderu gry. Ty nic nie musisz instalować.
 
-## 🌟 Główne Funkcje
+System Audio (C418): Wbudowany odtwarzacz muzyki z klasycznymi utworami Minecrafta w formacie .wav, z możliwością szybkiego wyłączenia w menu.
 
-* **System Cenzury:** Automatyczne sprawdzanie nicków pod kątem wulgaryzmów (zabezpieczenie serwera).
-* **Auto-Java (Runtime):** Launcher sam pobiera odpowiednią wersję Javy od Microsoftu, więc nie musisz nic instalować w systemie.
-* **Pasek Postępu:** Realny podgląd pobierania plików gry w czasie rzeczywistym.
-* **Własne Tekstury:** Możliwość łatwej zmiany tła (plik `background.png`).
-* **Szybki Start:** Zoptymalizowany proces uruchamiania gry 1.20.1.
+Dynamiczny Pasek Postępu: Realny podgląd pobierania plików gry, zasobów i bibliotek w czasie rzeczywistym.
 
-## 🚀 Jak zacząć?
+Konsola Deweloperska: Podgląd logów gry na żywo. Widzisz dokładnie, co dzieje się w tle (naprawione błędy z poprzednich wersji!).
 
-1.  Wejdź na stronę [milosz7-dev.github.io/fwmboy-launcher](https://milosz7-dev.github.io/fwmboy-launcher/).
-2.  Pobierz plik `FwmboyLauncher.exe`.
-3.  Wpisz swój unikalny nick (pamiętaj: bez brzydkich słów!).
-4.  Kliknij **ROZPOCZNIJ GRĘ** i poczekaj na pobranie plików.
+Sekcja Autorzy i Licencja: Nowe, przewijane okno z pełną dokumentacją prawną, linkami do GitHub oraz listą twórców.
 
-## 🛠️ Wymagania Techniczne
+Szybki Start 1.20.1: Zoptymalizowany proces uruchamiania wersji 1.20.1 z automatycznym przydzielaniem pamięci.
 
-* System operacyjny: Windows 10/11.
-* Miejsce na dysku: ok. 500MB (na pliki Minecrafta).
-* Połączenie z internetem (tylko przy pierwszym uruchomieniu).
+🚀 Jak zacząć?
+Wejdź na stronę milosz7-dev.github.io/fwmboy-launcher.
 
-## 👨‍💻 Autor
-Projekt stworzony i rozwijany przez **milosz7-dev**.
+Pobierz plik FWMB_Launcher.exe.
 
-## ⚖️ Licencja
-Ten projekt jest udostępniany na licencji **MIT**. Możesz go dowolnie modyfikować i udostępniać, pod warunkiem zachowania informacji o autorze. Szczegóły znajdziesz w pliku [LICENSE](LICENSE).
+Upewnij się, że w tym samym folderze masz plik music.wav.
 
----
-*Fwmboy Launcher nie jest oficjalnym produktem Mojang AB ani Microsoft.*
+Wpisz swój unikalny nick.
+
+Kliknij GRAJ i poczekaj na synchronizację plików (tylko za pierwszym razem).
+
+🛠️ Wymagania Techniczne
+System operacyjny: Windows 10/11 (64-bit).
+
+Biblioteki: Visual C++ Redistributable (zalecane dla stabilności Javy).
+
+Miejsce na dysku: ok. 600MB (na pliki gry i środowisko Java).
+
+👨‍💻 Zespół Projektowy
+Główny Twórca: milosz7-dev (Logika, GUI, Integracja)
+
+Wsparcie Techniczne: Gemini AI (Optymalizacja kodu, Debugowanie)
+
+Lead Tester: Kajtek (Testy stabilności i wydajności)
+
+⚖️ Licencja i Prawo
+Ten projekt jest udostępniany na licencji MIT. Możesz go dowolnie modyfikować, pod warunkiem zachowania informacji o autorach.
+
+Fwmboy Launcher nie jest oficjalnym produktem Mojang AB ani Microsoft. Program korzysta z oficjalnych bibliotek API do pobierania plików gry bezpośrednio z serwerów producenta.
