@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pobierz Fwmboy Launcher</title>
+    <style>
+        :root {
+            --mc-green: #3fb950;
+            --mc-dark-green: #2e7d32;
+            --bg-dark: #121212;
+            --panel-dark: #1e1e1e;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: var(--panel-dark);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            text-align: center;
+            max-width: 500px;
+            border: 2px solid #333;
+        }
+
+        h1 {
+            color: var(--mc-green);
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        p {
+            color: #aaa;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        .download-btn {
+            background-color: var(--mc-green);
+            color: white;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(63, 185, 80, 0.3);
+        }
+
+        .download-btn:hover {
+            background-color: var(--mc-dark-green);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(63, 185, 80, 0.5);
+        }
+
+        .features {
+            margin-top: 40px;
+            text-align: left;
+            display: inline-block;
+        }
+
+        .feature-item {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .feature-item::before {
+            content: "⛏";
+            margin-right: 10px;
+            color: var(--mc-green);
+        }
+
+        footer {
+            margin-top: 50px;
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .badge {
+            background: #333;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>FWMB Launcher</h1>
+        <p>Oficjalna strona pobierania ekipy milosz7-dev</p>
+
+        <a href="https://github.com/milosz7-dev/fwmboy-launcher/releases/latest/download/FwmboyLauncher.exe" class="download-btn">
+            POBIERZ .EXE
+        </a>
+
+        <div class="features">
+            <div class="feature-item">Wersja Minecraft 1.20.1</div>
+            <div class="feature-item">Wbudowana Auto-Java</div>
+            <div class="feature-item">System blokady brzydkich słów</div>
+            <div class="feature-item">Szybki start (Non-Premium)</div>
+        </div>
+
+        <div style="margin-top: 30px;">
+            <span class="badge">Licencja: MIT</span>
+            <span class="badge">Status: Online</span>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 milosz7-dev. Ten projekt nie jest powiązany z Mojang AB.
+    </footer>
+
+</body>
+</html>
