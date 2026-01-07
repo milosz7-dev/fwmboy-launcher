@@ -1,10 +1,8 @@
-Oto zaktualizowana wersja Twojego opisu (README), uwzględniająca wszystkie nowe funkcje, które dodaliśmy: System Detekcji Javy, Muzykę C418, Sekcję Autorów oraz wsparcie techniczne Gemini AI i testy Kajtka.
-
 ⛏️ FWMB Launcher Pro
-FWMB Launcher Pro to darmowy, lekki i nowoczesny launcher do Minecrafta, stworzony specjalnie dla naszej ekipy. Oferuje profesjonalny interfejs z zaawansowaną konsolą logów i automatyzacją, której nie znajdziesz w zwykłych launcherach.
+FWMB Launcher Pro to darmowy, lekki i nowoczesny launcher do Minecrafta, stworzony specjalnie dla naszej ekipy. Oferuje profesjonalny interfejs z zaawansowaną konsolą logów i automatyzacją.
 
 🌟 Główne Funkcje
-Inteligentna Auto-Java (Runtime): Launcher skanuje Twój komputer. Jeśli nie znajdziesz poprawnej Javy (17+), sam pobierze Java Runtime Gamma od Microsoftu do folderu gry. Ty nic nie musisz instalować.
+Inteligentna Auto-Java (Runtime): Launcher skanuje Twój komputer. Jeśli nie znajdzie poprawnej Javy (17+), sam pobierze Java Runtime Gamma od Microsoftu do folderu gry. Ty nic nie musisz instalować.
 
 System Audio (C418): Wbudowany odtwarzacz muzyki z klasycznymi utworami Minecrafta w formacie .wav, z możliwością szybkiego wyłączenia w menu.
 
@@ -13,8 +11,6 @@ Dynamiczny Pasek Postępu: Realny podgląd pobierania plików gry, zasobów i bi
 Konsola Deweloperska: Podgląd logów gry na żywo. Widzisz dokładnie, co dzieje się w tle (naprawione błędy z poprzednich wersji!).
 
 Sekcja Autorzy i Licencja: Nowe, przewijane okno z pełną dokumentacją prawną, linkami do GitHub oraz listą twórców.
-
-Szybki Start 1.20.1: Zoptymalizowany proces uruchamiania wersji 1.20.1 z automatycznym przydzielaniem pamięci.
 
 🚀 Jak zacząć?
 Wejdź na stronę milosz7-dev.github.io/fwmboy-launcher.
@@ -29,8 +25,6 @@ Kliknij GRAJ i poczekaj na synchronizację plików (tylko za pierwszym razem).
 
 🛠️ Wymagania Techniczne
 System operacyjny: Windows 10/11 (64-bit).
-
-Biblioteki: Visual C++ Redistributable (zalecane dla stabilności Javy).
 
 Miejsce na dysku: ok. 600MB (na pliki gry i środowisko Java).
 
