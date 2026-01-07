@@ -1,0 +1,3 @@
+customtkinter
+minecraft-launcher-lib
+Pillow
