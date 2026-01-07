@@ -3,130 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pobierz Fwmboy Launcher</title>
+    <title>FWMB Launcher - Pobierz</title>
     <style>
         :root {
-            --mc-green: #3fb950;
-            --mc-dark-green: #2e7d32;
-            --bg-dark: #121212;
-            --panel-dark: #1e1e1e;
+            --primary-color: #3fb950;
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --text-color: #c9d1d9;
         }
 
         body {
-            background-color: var(--bg-dark);
-            color: white;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
-            min-height: 100vh;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
         }
 
         .container {
-            background-color: var(--panel-dark);
-            padding: 40px;
-            border-radius: 15px;
+            background-color: var(--card-bg);
+            padding: 3rem;
+            border-radius: 20px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            text-align: center;
+            border: 1px solid #30363d;
             max-width: 500px;
-            border: 2px solid #333;
         }
 
         h1 {
-            color: var(--mc-green);
+            color: var(--primary-color);
             font-size: 3rem;
             margin-bottom: 10px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
+            font-weight: 800;
         }
 
         p {
-            color: #aaa;
             font-size: 1.1rem;
             margin-bottom: 30px;
+            line-height: 1.6;
         }
 
-        .download-btn {
-            background-color: var(--mc-green);
-            color: white;
-            padding: 20px 40px;
-            font-size: 1.5rem;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 8px;
+        .btn-download {
             display: inline-block;
-            transition: all 0.3s ease;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: transform 0.2s, background-color 0.2s;
             box-shadow: 0 4px 15px rgba(63, 185, 80, 0.3);
         }
 
-        .download-btn:hover {
-            background-color: var(--mc-dark-green);
+        .btn-download:hover {
+            background-color: #2ea043;
             transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(63, 185, 80, 0.5);
         }
 
-        .features {
-            margin-top: 40px;
-            text-align: left;
-            display: inline-block;
-        }
-
-        .feature-item {
-            margin: 10px 0;
-            display: flex;
-            align-items: center;
-        }
-
-        .feature-item::before {
-            content: "⛏";
-            margin-right: 10px;
-            color: var(--mc-green);
-        }
-
-        footer {
-            margin-top: 50px;
-            color: #555;
-            font-size: 0.9rem;
-        }
-
-        .badge {
-            background: #333;
+        .version-badge {
+            background-color: #21262d;
+            color: #8b949e;
             padding: 5px 12px;
             border-radius: 20px;
-            font-size: 0.8rem;
-            margin: 5px;
+            font-size: 0.9rem;
             display: inline-block;
+            margin-bottom: 20px;
+            border: 1px solid #30363d;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #8b949e;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
+        <div class="version-badge">Pre-release v1.0.0-beta</div>
         <h1>FWMB Launcher</h1>
-        <p>Oficjalna strona pobierania ekipy milosz7-dev</p>
-
-        <a href="https://github.com/milosz7-dev/fwmboy-launcher/releases/latest/download/FwmboyLauncher.exe" class="download-btn">
-            POBIERZ .EXE
+        <p>Lekki, nowoczesny i szybki launcher Minecraft 1.20.1 stworzony dla naszej ekipy. Zawiera system Auto-Java i muzykę C418.</p>
+        
+        <a href="https://github.com/milosz7-dev/fwmboy-launcher/releases/download/NEW/FWMB_Launcher.zip" class="btn-download">
+            🚀 POBIERZ TERAZ (.ZIP)
         </a>
 
-        <div class="features">
-            <div class="feature-item">Wersja Minecraft 1.20.1</div>
-            <div class="feature-item">Wbudowana Auto-Java</div>
-            <div class="feature-item">System blokady brzydkich słów</div>
-            <div class="feature-item">Szybki start (Non-Premium)</div>
-        </div>
-
-        <div style="margin-top: 30px;">
-            <span class="badge">Licencja: MIT</span>
-            <span class="badge">Status: Online</span>
+        <div class="footer">
+            Projekt stworzony przez <b>milosz7-dev</b> przy wsparciu Gemini AI.<br>
+            Testy: <b>Kajtek</b>
         </div>
     </div>
-
-    <footer>
-        &copy; 2026 milosz7-dev. Ten projekt nie jest powiązany z Mojang AB.
-    </footer>
 
 </body>
 </html>
