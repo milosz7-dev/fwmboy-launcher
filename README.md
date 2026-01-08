@@ -1,3 +1,5 @@
+Discord server: https://discord.gg/bUQwYjJBwn
+
 ⛏️ FWMB Launcher Pro to darmowy, lekki i nowoczesny launcher do Minecrafta, stworzony specjalnie dla naszej ekipy. Oferuje profesjonalny interfejs z zaawansowaną konsolą logów i automatyzacją.
 
 🌟 Główne Funkcje
