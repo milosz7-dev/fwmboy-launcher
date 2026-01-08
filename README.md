@@ -16,7 +16,7 @@ Sekcja Autorzy i Licencja: Nowe, przewijane okno z pełną dokumentacją prawną
 🚀 Jak zacząć?
 Wejdź na stronę milosz7-dev.github.io/fwmboy-launcher.
 
-Pobierz plik FWMB_Launcher.exe.
+Pobierz plik FWMB_Launcher.zip.
 
 Upewnij się, że w tym samym folderze masz plik music.wav.
 
@@ -31,8 +31,6 @@ Miejsce na dysku: ok. 600MB (na pliki gry i środowisko Java).
 
 👨‍💻 Zespół Projektowy
 Główny Twórca: milosz7-dev (Logika, GUI, Integracja)
-
-Wsparcie Techniczne: Gemini AI (Optymalizacja kodu, Debugowanie)
 
 Lead Tester: Kajtek (Testy stabilności i wydajności)
 
