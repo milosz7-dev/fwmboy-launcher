@@ -1,40 +1,43 @@
-Discord server: https://discord.gg/bUQwYjJBwn
+### ⛏️ FWMB Launcher v1.0.9 – Free Minecraft Launcher
 
-⛏️ FWMB Launcher Pro to darmowy, lekki i nowoczesny launcher do Minecrafta, stworzony specjalnie dla naszej ekipy. Oferuje profesjonalny interfejs z zaawansowaną konsolą logów i automatyzacją.
+Strona internetowa: [fwmb.milotajne.pl](https://www.google.com/search?q=https://fwmb.milotajne.pl)
 
-🌟 Główne Funkcje
-Inteligentna Auto-Java (Runtime): Launcher skanuje Twój komputer. Jeśli nie znajdzie poprawnej Javy (17+), sam pobierze Java Runtime Gamma od Microsoftu do folderu gry. Ty nic nie musisz instalować.
+Oficjalny Discord: [discord.gg/bUQwYjJBwn](https://discord.gg/bUQwYjJBwn)
 
-System Audio (C418): Wbudowany odtwarzacz muzyki z klasycznymi utworami Minecrafta w formacie .wav, z możliwością szybkiego wyłączenia w menu.
+GitHub: [milosz7-dev/fwmboy-launcher](https://www.google.com/search?q=https://github.com/milosz7-dev/fwmboy-launcher)
 
-Dynamiczny Pasek Postępu: Realny podgląd pobierania plików gry, zasobów i bibliotek w czasie rzeczywistym.
+FWMB Launcher to darmowy, lekki i nowoczesny launcher do Minecrafta, stworzony specjalnie dla naszej ekipy. Oferuje profesjonalny interfejs z zaawansowaną konsolą logów i pełną optymalizacją.
 
-Konsola Deweloperska: Podgląd logów gry na żywo. Widzisz dokładnie, co dzieje się w tle (naprawione błędy z poprzednich wersji!).
+---
 
-Sekcja Autorzy i Licencja: Nowe, przewijane okno z pełną dokumentacją prawną, linkami do GitHub oraz listą twórców.
+### 🌟 Główne Funkcje
 
-🚀 Jak zacząć?
-Wejdź na stronę milosz7-dev.github.io/fwmboy-launcher.
+* **Inteligentna Auto-Java (Runtime):** Launcher skanuje Twój komputer. Jeśli nie znajdzie poprawnej Javy (17+), automatycznie zadba o odpowiednie środowisko.
+* **Maksymalne FPS i Optymalizacja:** Zaawansowana konfiguracja JVM oraz flagi Garbage Collectora (G1GC) zapewniają najwyższą płynność rozgrywki.
+* **Dynamiczny Pasek Postępu:** Realny podgląd pobierania plików gry, zasobów i bibliotek w czasie rzeczywistym.
+* **Konsola Deweloperska:** Podgląd logów gry na żywo. Widzisz dokładnie, co dzieje się w tle.
+* **Wbudowany Instalator Modów:** Bezproblemowe zarządzanie modyfikacjami `.jar` bezpośrednio z poziomu aplikacji.
 
-Pobierz plik FWMB_Launcher.zip.
+---
 
-Upewnij się, że w tym samym folderze masz plik music.wav.
+### 🚀 Jak zacząć?
 
-Wpisz swój unikalny nick.
+1. Wejdź na oficjalną stronę projektu: [fwmb.milotajne.pl](https://www.google.com/search?q=https://fwmb.milotajne.pl).
+2. Pobierz najnowszy instalator `.exe` bezpośrednio ze strony lub [wybierając ten link do pobrania wersji 1.0.9](https://github.com/milosz7-dev/fwmboy-launcher/releases/download/v1.0.9/FWMB.Launcher.Setup.1.1.0.exe).
+3. Uruchom program, wpisz swój nick i kliknij **GRAJ**.
 
-Kliknij GRAJ i poczekaj na synchronizację plików (tylko za pierwszym razem).
+---
 
-🛠️ Wymagania Techniczne
-System operacyjny: Windows 10/11 (64-bit).
+### 🛠️ Wymagania Techniczne
 
-Miejsce na dysku: ok. 600MB (na pliki gry i środowisko Java).
+* **System operacyjny:** Windows 10/11 (64-bit).
+* **Miejsce na dysku:** ok. 600MB (na pliki gry i środowisko).
 
-👨‍💻 Zespół Projektowy
-Główny Twórca: milosz7-dev (Logika, GUI, Integracja)
+---
 
-Lead Tester: Kajtek (Testy stabilności i wydajności)
+### 👨‍💻 Zespół Projektowy i Informacje
 
-⚖️ Licencja i Prawo
-Ten projekt jest udostępniany na licencji MIT. Możesz go dowolnie modyfikować, pod warunkiem zachowania informacji o autorach.
+* **Główny Twórca:** milosz7-dev (Logika, GUI, Integracja)
+* **Status projektu:** Projekt zamknięty / autorski (nie open source), rozwijany przez twórcę.
 
-Fwmboy Launcher nie jest oficjalnym produktem Mojang AB ani Microsoft. Program korzysta z oficjalnych bibliotek API do pobierania plików gry bezpośrednio z serwerów producenta.
+*Uwaga: Fwmboy Launcher nie jest oficjalnym produktem Mojang AB ani Microsoft.*
